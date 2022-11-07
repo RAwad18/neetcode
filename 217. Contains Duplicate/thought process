@@ -1,0 +1,8 @@
+217. Contains Duplicate 
+    Given an integer array nums, return true if any value appears at least twice 
+    in the array, and return false if every element is distinct.
+
+1. Two for-loops, innerloop (j) compares every other value in the array to the variable in the outer loop (i).
+    
+    - if j = i + 1, then we get an out of bounds error once i reaches the last index in the array
+        - so we set outer loop limit to nums.length - 1  

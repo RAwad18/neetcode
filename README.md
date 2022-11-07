@@ -1,2 +1,2 @@
 # neetcode
-practice problems from neetcode.io
+practice problems from neetcode.io/leetcode
